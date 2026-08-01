@@ -1,10 +1,13 @@
-# Artemidos
+<p align="center">
+  <img src=".github/artemidos-icon.png" width="120" alt="Artemidos">
+</p>
 
-A self-contained set of field instruments for Android. Converters, a scientific
-calculator, ranging tools, navigation and chart work, radio planning, and a
-reference catalogue of speeds, distances and ranges.
+<h1 align="center">Artemidos</h1>
 
-**Everything works offline. Nothing you enter leaves the device.**
+<p align="center">
+  A self-contained set of field instruments for Android.<br>
+  <strong>Everything works offline. Nothing you enter leaves the device.</strong>
+</p>
 
 ---
 
@@ -22,75 +25,67 @@ that reads correctly at a glance is the whole trick.
 
 ---
 
-## Status
+## Contents
 
-In development. No release has been published yet.
+| | |
+|---|---|
+| **[What it does](docs/features.md)** | Every page and tool, section by section |
+| **[Buying and activation](docs/activation.md)** | Price, payment in TON or USDT, keys, devices |
+| **[Installing](docs/install.md)** | Sideloading, permissions, first run |
+| **[Languages](docs/languages.md)** | The 30 languages, and what is translated |
+| **[Privacy](docs/privacy.md)** | What touches the network, and what never does |
 
 ---
 
-## What it does
+## In short
 
-**Field tools.** Scientific calculator, full unit converter, stopwatch, timers
-and alarms, a notebook, phonetic alphabets, and an offline currency converter.
+**Field tools.** Scientific calculator with a running tape, a full unit
+converter, stopwatch, timers and alarms, an encrypted notebook, phonetic
+alphabets in Latin and Cyrillic, and an offline currency converter.
 
 **Navigation.** A pannable world map with weapon, blast, nuclear and sound
-ranges dropped onto real ground. Compass with magnetic and true heading. Sea
-navigation: sailings, chart scale, course to steer, tacking, estimated
-position, distance off by vertical sextant angle and by dipping lights.
-Distance between any two places by road, helicopter and jet, with every airport
-within 75 km of a city offered and tagged where it is military or private.
+ranges drawn on real ground. A compass you can calibrate against a known
+bearing. Sea navigation: sailings, chart scale, course to steer, tacking,
+estimated position, distance off, and magnetic declination including what an
+old chart's own note works out to today. Mountain work: Naismith timing, slope
+distance, height by clinometer angle, and gradient with the avalanche band
+called out. Distance between any two places by road, helicopter and jet, with
+every airport within 75 km of a city tagged where it is military or private.
 
 **Ranging.** Distance by camera, by mil scale, and by flash to bang.
 
-**Radio.** Range estimation over real terrain, frequency plans, Morse, and War
-Pigeon: an OFDM data modem that carries short encrypted text over any voice
-channel, speaker to microphone.
+**Radio.** Range estimation over real terrain, frequency planning, Morse with a
+practice tree, and **War Pigeon** — an OFDM data modem that carries short
+encrypted text over any voice channel, speaker to microphone, with no
+infrastructure of any kind.
 
-**Reference.** Speeds, ranges and specifications across land, air, sea and
-space, drawn from published open sources.
+**Reference.** Around a thousand entries across land, air, sea, space, chemical,
+biological, radiological and ballistic subjects, each stored in SI and shown in
+whatever units you chose.
+
+**Six themes**, an app lock with duress PINs, and thirty languages.
+
+---
+
+## Status
+
+**In development.** No public release has been made yet.
 
 ---
 
 ## Accuracy
 
-Conversion factors are exact where an exact definition exists, and the physics
-and ballistics are computed rather than looked up.
+Conversion factors are exact where an exact definition exists, and the physics,
+ballistics and navigation are computed rather than looked up.
 
 Catalogue figures are published open-source data: manufacturer brochures,
 service fact sheets and standard reference works. They are planning figures,
-not guarantees, and real performance varies with load, altitude, temperature
-and configuration. Where a widely repeated number is not supported by evidence,
+not guarantees. Where a widely repeated number is not supported by evidence,
 the entry says so rather than repeating it.
 
 Anthropological, sociological, political and human-assessment material is a
-different kind of information and should be treated as a starting point, not as
-fact.
-
----
-
-## Privacy
-
-No account, no analytics, no tracking.
-
-The only network requests the app can make are map tiles and exchange rates,
-both listed in the app under Settings, and both stopped by a single switch.
-Position, camera and microphone are used on the device only, never stored and
-never transmitted.
-
-An optional app lock encrypts the notebook, the radio keys, the message log and
-any saved position with AES-256-GCM under a key derived from a PIN you choose.
-There is no recovery: forgetting it loses that data permanently.
-
----
-
-## Credits
-
-Photographs are from Wikimedia Commons under public domain, CC0, CC BY or
-CC BY-SA licences. Author and licence are shown under each image in the app.
-
-Exchange rates are European Central Bank reference rates via frankfurter.dev.
-Solar position uses the NOAA solar calculation. Airport and city data come from
-OurAirports and open geographic datasets. Maps are OpenStreetMap.
+different kind of information and should be treated as a starting point to be
+checked, never as fact.
 
 ---
 
