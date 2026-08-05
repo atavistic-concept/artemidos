@@ -88,4 +88,4 @@ else says what it is and what it costs.
 Crypto payments are irreversible, so there is no automated refund. If an order
 has gone wrong, write and it will be sorted out by hand.
 
-**whiteparrotwhitonebluefeather@gmail.com**
+**atavisticconcept@gmail.com**

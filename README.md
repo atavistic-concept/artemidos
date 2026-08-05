@@ -55,7 +55,7 @@ every airport within 75 km of a city tagged where it is military or private.
 **Ranging.** Distance by camera, by mil scale, and by flash to bang.
 
 **Radio.** Range estimation over real terrain, frequency planning, Morse with a
-practice tree, and **War Pigeon** — an OFDM data modem that carries short
+practice tree, and **War Pigeon**, an OFDM data modem that carries short
 encrypted text over any voice channel, speaker to microphone, with no
 infrastructure of any kind.
 
@@ -63,13 +63,80 @@ infrastructure of any kind.
 biological, radiological and ballistic subjects, each stored in SI and shown in
 whatever units you chose.
 
-**Six themes**, an app lock with duress PINs, and thirty languages.
+**Six themes**, an app lock with duress PINs, and thirty languages, all
+hand-translated and all working with no signal.
+
+---
+
+## Download
+
+**[Download the latest APK →](../../releases/latest)**
+
+Current build: **3.59.0**, a pre-release. Android only, sideloaded, see
+**[Installing](docs/install.md)**. It is not signed for production, so Android
+will warn you; that warning is correct and you should read
+[the note above](#this-is-the-only-place-artemidos-is-published) before
+installing anything called Artemidos.
+
+Verify what you downloaded before you install it:
+
+```
+sha256sum artemidos-3.59.0.apk
+54a1d906a29ba19853488c75e915f3ca1d701d0b4676526e401254745ba6a4c3
+```
+
+If that does not match, do not install it.
+
+---
+
+## What a key costs, and how to pay
+
+**35 USD, one payment.** No subscription, no renewal, no account. Yours for life
+across every update, on **up to six devices** at once.
+
+Payment is in **TON** or **USDT on the TON network**, and nothing else. There is
+no card processor, because one requires a company, a merchant account and a
+great deal of information about you that this app has no business holding.
+
+1. **Settings → Activation → Buy a licence.** Give the email the key should go
+   to. That address owns the licence, so use one you will still have in years.
+2. **Choose TON or USDT.** USDT is a flat 35.00. TON is quoted live, and the
+   quote is held for **30 minutes**.
+3. **Send the exact amount, with the code.** You are given an address, an amount
+   and a code.
+4. **Wait.** The app activates itself when the payment lands, usually within a
+   minute, and the key is emailed to you as well.
+
+> ### The code is not optional
+>
+> Your wallet may call it the **comment**, the **memo** or the **message**.
+> Whatever it is called, the code goes in it.
+>
+> Payments are matched to orders by that code and by nothing else. Two people
+> buying in the same hour send an identical amount to an identical address, and
+> the code is the only thing that says which payment is yours. A payment sent
+> without it cannot be matched automatically.
+>
+> If you have already sent one without it, nothing is lost. Write to
+> **atavisticconcept@gmail.com** with the transaction hash.
+
+> **USDT must be on TON, not on Ethereum.** They are different networks, and the
+> same-looking token on the wrong one cannot be received here.
+
+**Without a key** the calculator and the converter work completely and forever,
+with no nagging. Recon lists show the first four entries of each and count the
+rest.
+
+Devices, refunds and recovering a lost key:
+**[Buying and activation](docs/activation.md)**.
 
 ---
 
 ## Status
 
-**In development.** No public release has been made yet.
+**Pre-release.** The app is complete and in daily use, but it has not been
+through a production signing and review pass, and the catalogue's labels are
+still being translated, see [Languages](docs/languages.md).
 
 ---
 
@@ -92,6 +159,6 @@ checked, never as fact.
 ## Reporting an error
 
 Corrections, inaccuracies and suggestions:
-**whiteparrotwhitonebluefeather@gmail.com**
+**atavisticconcept@gmail.com**
 
 Say which page and which figure. Sources welcome.

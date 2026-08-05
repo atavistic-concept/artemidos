@@ -36,23 +36,37 @@ falls back to English otherwise.
 
 ## What is translated, and what is not
 
+Everything below is **hand-written**. No machine translation is used anywhere in
+this app, in any language.
+
 **The interface is translated**: navigation, buttons, page titles, settings,
 activation, the lock screen.
 
-**The catalogue is not, yet.** That is around eight thousand strings of weapon
-figures, chemical decontamination procedure, envenomation first aid, avalanche
-guidance and forensic timelines.
+**The catalogue's written material is translated.** Every explanatory note behind
+an entry is in all thirty languages: why a figure is what it is, what defeats a
+piece of cover, what the first three minutes in cold water do to you, which
+widely repeated numbers are wrong. That is the part that carries the meaning,
+and it is around 2,200 strings.
 
-This is deliberate. Machine-translating a decontamination step or an envenomation
-protocol into thirty languages without a speaker of each reading it back is how
-somebody follows a mistranslated instruction and is hurt. That material stays in
-English until a person has reviewed it, language by language.
+**The catalogue's labels are not, yet.** Category and subcategory names, entry
+names, and the row labels on each entry are still English while the same
+hand-translation is worked through them, roughly 3,000 strings.
 
-The app says so plainly on the language screen rather than leaving you to find
-out.
+So as of 3.59.0 you will see translated prose under English headings in parts of
+Recon. That is work in progress, not a defect, and it is being finished in
+batches.
+
+**Some things stay in English on purpose.** Model designations keep their names
+(`3M14 Kalibr`, `2S19 Msta-S`), and so does any word that would lose its meaning
+if localised: the Huntress Guide keeps *momentum* in every language,
+transliterated into Cyrillic, Greek, Georgian and Armenian rather than replaced.
+
+Machine-translating a decontamination step or an envenomation protocol into
+thirty languages without a speaker of each reading it back is how somebody
+follows a mistranslated instruction and is hurt. That is why this is slow.
 
 ## Helping
 
 If you speak one of these and would review the catalogue in it, write to
-**whiteparrotwhitonebluefeather@gmail.com**. Corrections to the interface
-translations are equally welcome: say which language and which string.
+**atavisticconcept@gmail.com**. Corrections to the interface translations are
+equally welcome: say which language and which string.

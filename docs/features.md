@@ -11,7 +11,7 @@ The app has four sections along the bottom: **Console**, **Recon**,
 
 The home screen, arranged by whoever carries it.
 
-Everything else in the app is organised the way the *subject* is organised —
+Everything else in the app is organised the way the *subject* is organised , 
 ballistics with ballistics, radio with radio. That is right for reference and
 wrong for a job, because a job draws two tools from one section and one from
 another. The Console is the answer.
@@ -21,8 +21,8 @@ Every registered page is available, including tools that live inside another
 page such as Morse or War Pigeon.
 
 **Clocks.** Named clocks across time zones, three to a row. Working across zones
-is where mistakes are made that look like incompetence — a call missed by an
-hour, a curfew misjudged — and a row of clocks settles it. Daylight saving is
+is where mistakes are made that look like incompetence, a call missed by an
+hour, a curfew misjudged, and a row of clocks settles it. Daylight saving is
 handled from the device's own time zone database.
 
 **Huntress Guide**, **About Artemidos**, **Settings** and **Other apps**.
@@ -38,7 +38,7 @@ SI and displaying them in whatever units you chose.
 |---|---|
 | **Physics & nature** | Wave speeds, falling bodies, ballistic arcs, natural phenomena |
 | **Civilian vehicles** | Road, rail, air and sea, with range and endurance |
-| **Military systems** | Tanks, armoured vehicles, artillery, aircraft, helicopters, naval vessels, drones, missiles, ICBMs, nuclear effects, air defence — plus **ranks and insignia**, **camouflage patterns** and **police forces** by country |
+| **Military systems** | Tanks, armoured vehicles, artillery, aircraft, helicopters, naval vessels, drones, missiles, ICBMs, nuclear effects, air defence, plus **ranks and insignia**, **camouflage patterns** and **police forces** by country |
 | **People & animals** | Movement rates, endurance and daily range |
 | **Ballistics & cover** | Threat ranges, what stops what, protection standards |
 | **Radiation & shielding** | Radiation types, what blocks them, how thick, by isotope |
@@ -52,8 +52,8 @@ SI and displaying them in whatever units you chose.
 
 Every species answers three questions before it answers speed:
 
-- **If you meet one** — what to actually do, in plain terms
-- **How far it detects you** — hearing, sight, smell, and pressure sense where it has one
+- **If you meet one**, what to actually do, in plain terms
+- **How far it detects you**, hearing, sight, smell, and pressure sense where it has one
 - **Where it is found**
 
 Sprint distance before an animal breaks off is given where it matters: a tiger
@@ -101,25 +101,25 @@ in your pocket.
 
 **Mountain.**
 
-- **Time** — Naismith, plus load, party size and a penalty for steep descent, with the moving time, the figure to give someone expecting you back, and what it looks like if it goes badly
-- **Slope distance** — a map measures the ground flattened; on a 30° slope a map kilometre is 1,155 m under your boots
-- **Height** — from a clinometer angle and a paced horizontal distance, with what one degree of error is worth at that range
-- **Gradient** — rise over run, as a percentage, an angle and a ratio, with the **avalanche band** called out: 30° to 45° is where slab avalanches overwhelmingly release
+- **Time**, Naismith, plus load, party size and a penalty for steep descent, with the moving time, the figure to give someone expecting you back, and what it looks like if it goes badly
+- **Slope distance**, a map measures the ground flattened; on a 30° slope a map kilometre is 1,155 m under your boots
+- **Height**, from a clinometer angle and a paced horizontal distance, with what one degree of error is worth at that range
+- **Gradient**, rise over run, as a percentage, an angle and a ratio, with the **avalanche band** called out: 30° to 45° is where slab avalanches overwhelmingly release
 
 ### At sea
 
-**Sea navigation** — sailings (great circle and rhumb line), chart scale, true/magnetic/compass conversion, course to steer with tidal set and drift, tacking, estimated position, speed–time–distance.
+**Sea navigation**, sailings (great circle and rhumb line), chart scale, true/magnetic/compass conversion, course to steer with tidal set and drift, tacking, estimated position, speed–time–distance.
 
-**Magnetic declination** — today's figure from an offline world magnetic model, *and* what an old chart's own compass rose works out to now. A 1994 chart with 6′ annual change is three degrees out by now, and three degrees over ten miles is half a mile off track. It shows both and states the disagreement.
+**Magnetic declination**, today's figure from an offline world magnetic model, *and* what an old chart's own compass rose works out to now. A 1994 chart with 6′ annual change is three degrees out by now, and three degrees over ten miles is half a mile off track. It shows both and states the disagreement.
 
-**Distance off** — vertical sextant angle, dipping lights, two bearings.
+**Distance off**, vertical sextant angle, dipping lights, two bearings.
 
 ### How far
 
-**Rangefinder** — distance by camera (after calibration), by mil scale against a
+**Rangefinder**, distance by camera (after calibration), by mil scale against a
 known height, and by flash to bang.
 
-**Between places** — road, helicopter and jet times between any two places.
+**Between places**, road, helicopter and jet times between any two places.
 Typing a city offers its centre *and* every airport within 75 km, each with how
 far out it sits and tagged **military** or **private** where it is not a
 scheduled airport. Coordinates are shown for both ends.
@@ -128,30 +128,30 @@ scheduled airport. Coordinates are shown for both ends.
 
 ## Field
 
-**Calculator** — scientific, with a running **tape**: finished sums stack above
+**Calculator**, scientific, with a running **tape**: finished sums stack above
 the live one, newest at the bottom, and tapping any line drops its result into
 the current expression.
 
-**Converter** — every measure, fully offline.
+**Converter**, every measure, fully offline.
 
-**Notebook** — categorised notes, encrypted when the app lock is on.
+**Notebook**, categorised notes, encrypted when the app lock is on.
 
-**Time** — stopwatch, timers and alarms.
+**Time**, stopwatch, timers and alarms.
 
 **Radio**
 
-- *Range* — estimation over real terrain, for PMR446, FRS, GMRS, MURS, CB, marine VHF, airband, amateur bands, TETRA, LoRa and custom frequencies
-- *Radios* — sets and their specifications
-- *Morse* — encode, decode, listen, and a practice tree that lights under your thumb as you key
-- *War Pigeon* — see below
-- *Planner* — channel cards and frequency planning
+- *Range*, estimation over real terrain, for PMR446, FRS, GMRS, MURS, CB, marine VHF, airband, amateur bands, TETRA, LoRa and custom frequencies
+- *Radios*, sets and their specifications
+- *Morse*, encode, decode, listen, and a practice tree that lights under your thumb as you key
+- *War Pigeon*, see below
+- *Planner*, channel cards and frequency planning
 
-**Phonetic** — NATO/ICAO, and the **Russian alphabet in Cyrillic**: all 32
+**Phonetic**, NATO/ICAO, and the **Russian alphabet in Cyrillic**: all 32
 letters plus digits, each showing the code word and how to say it. Type Latin
 and it transliterates, showing both letters so you can see which Cyrillic one is
 meant.
 
-**Currency** — offline, from the last European Central Bank table stored.
+**Currency**, offline, from the last European Central Bank table stored.
 
 ---
 
@@ -176,10 +176,10 @@ listening while transmitting so it never decodes itself.
 
 Six themes in three families, each with a light and dark version:
 
-**Artemis** — the everyday one.
-**Raider** — monochrome and near black, condensed capitals, corner brackets on
+**Artemis**, the everyday one.
+**Raider**, monochrome and near black, condensed capitals, corner brackets on
 whatever is selected, flat frosted glass panels.
-**Military** — HUD is phosphor green with seven-segment figures; RED is a
+**Military**, HUD is phosphor green with seven-segment figures; RED is a
 deep-red low-light scheme that reads after dark without destroying dark
 adaptation and dims the camera preview to match.
 
@@ -193,7 +193,7 @@ pushed off the edge.
 
 Optional, and covered in full under [Privacy](privacy.md): AES-256-GCM over the
 notebook, radio keys, message log and saved positions, with an unlock PIN and
-two optional **duress PINs** — one that opens a harmless calculator-only app,
+two optional **duress PINs**, one that opens a harmless calculator-only app,
 one that erases everything first.
 
 ---
@@ -201,9 +201,9 @@ one that erases everything first.
 ## What needs a connection
 
 Almost nothing. Map tiles for ground you have not already stored, exchange rates
-once a day, and the licence server if you buy or activate. Everything else —
+once a day, and the licence server if you buy or activate. Everything else , 
 the entire catalogue, every calculation, navigation, ballistics, radio planning,
-Morse, War Pigeon, the notebook — runs with the phone in flight mode.
+Morse, War Pigeon, the notebook, runs with the phone in flight mode.
 
 Listed in full under [Privacy](privacy.md), and inside the app under
 **Settings → What uses the network**.
