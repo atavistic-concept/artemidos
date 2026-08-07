@@ -119,6 +119,13 @@ in your pocket.
 **Rangefinder**, distance by camera (after calibration), by mil scale against a
 known height, and by flash to bang.
 
+On the camera there are two crosses: a fixed one at the exact centre and a red
+one you slide sideways. The app reads the angle between them off the lens
+geometry and gives the **separation between the two objects** in degrees,
+milliradians, NATO mils and, once a range is known, in metres. The readout sits
+bottom right, outlined so it stays readable against a bright sky or a dark
+treeline.
+
 **Between places**, road, helicopter and jet times between any two places.
 Typing a city offers its centre *and* every airport within 75 km, each with how
 far out it sits and tagged **military** or **private** where it is not a
@@ -138,11 +145,15 @@ the current expression.
 
 **Time**, stopwatch, timers and alarms.
 
+- *Round*, an interval timer that beeps, vibrates or both at every interval you set, in seconds, minutes or hours, with a choice of the double tone or a single one
+- *Marks*, a countdown can also sound at up to three exact times on its way down, each set to a single or double beep
+- *Presets*, name a timer or a round set and load it again later
+
 **Radio**
 
 - *Range*, estimation over real terrain, for PMR446, FRS, GMRS, MURS, CB, marine VHF, airband, amateur bands, TETRA, LoRa and custom frequencies
-- *Radios*, sets and their specifications
-- *Morse*, encode, decode, listen, and a practice tree that lights under your thumb as you key
+- *Radios*, sets and their specifications, followed by **emergency frequencies**: distress and calling channels by country, region and international convention, maritime and mountain rescue, and the weather broadcasts that apply where each is used
+- *Morse*, a straight key first, then write, listen, and a practice tree that lights under your thumb as you key. The writing page carries collapsible reference boards: the code chart itself, operating **abbreviations**, the **Q code** with its aeronautical additions, and the **Z code**
 - *War Pigeon*, see below
 - *Planner*, channel cards and frequency planning
 
@@ -152,6 +163,22 @@ and it transliterates, showing both letters so you can see which Cyrillic one is
 meant.
 
 **Currency**, offline, from the last European Central Bank table stored.
+
+**Health**
+
+- *Pulse*, tap once per beat and it counts the rate, says whether it sits high, low or normal for a resting adult, and explains what that reading does and does not mean. A finger and a clock cannot support a diagnosis, and the page says so rather than pretending otherwise
+- *CPR*, a metronome at 100 to 120 a minute with the 30:2 cycle counted for you, 5 to 6 cm depth called out, five cycles to the two-minute swap, and the two variations that matter: compressions only if you are untrained, continuous compressions with one breath every six seconds once an airway is in
+- *Body*, the human reference figures: normal and abnormal body temperature, the hypothermia bands, fever, heat illness and insolation, resting pulse by age, and how long dehydration takes to matter
+- *Period*, a calendar you log period start and end days into. It predicts the following cycles, ovulation, and the follicular and luteal phases, and it recalculates from your own logged dates rather than an assumed 28 days. Anything it predicts can be overwritten with what actually happened, and the next prediction takes that in
+
+**Sensors.** What this particular phone actually has. The page probes for
+battery state, charge, voltage and temperature, GNSS, compass and magnetometer,
+ambient light, barometer, thermometer, hygrometer, clinometer and microphone,
+and reports each as present with its reading, or plainly **not available**.
+
+Where a sensor exists but Android does not expose it to an app, the page says
+that instead, because "not available" and "present but not offered to this app"
+are different facts and only one of them is about the hardware.
 
 ---
 
@@ -201,7 +228,7 @@ one that erases everything first.
 ## What needs a connection
 
 Almost nothing. Map tiles for ground you have not already stored, exchange rates
-once a day, and the licence server if you buy or activate. Everything else , 
+once a day, and the licence server if you buy or activate. Everything else, including
 the entire catalogue, every calculation, navigation, ballistics, radio planning,
 Morse, War Pigeon, the notebook, runs with the phone in flight mode.
 

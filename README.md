@@ -40,8 +40,13 @@ that reads correctly at a glance is the whole trick.
 ## In short
 
 **Field tools.** Scientific calculator with a running tape, a full unit
-converter, stopwatch, timers and alarms, an encrypted notebook, phonetic
-alphabets in Latin and Cyrillic, and an offline currency converter.
+converter, stopwatch, timers, alarms and an interval timer, an encrypted
+notebook, phonetic alphabets in Latin and Cyrillic, and an offline currency
+converter. A **health** page with a pulse counter, a CPR metronome that counts
+the 30:2 cycle for you, human reference figures for temperature, hypothermia,
+fever and dehydration, and a cycle calendar that predicts from your own logged
+dates. A **sensors** page that reports what this particular phone actually
+carries, and says plainly when something is not there.
 
 **Navigation.** A pannable world map with weapon, blast, nuclear and sound
 ranges drawn on real ground. A compass you can calibrate against a known
@@ -52,19 +57,23 @@ distance, height by clinometer angle, and gradient with the avalanche band
 called out. Distance between any two places by road, helicopter and jet, with
 every airport within 75 km of a city tagged where it is military or private.
 
-**Ranging.** Distance by camera, by mil scale, and by flash to bang.
+**Ranging.** Distance by camera, by mil scale, and by flash to bang, plus a
+sliding second cross that measures the separation between two objects in the
+same view.
 
-**Radio.** Range estimation over real terrain, frequency planning, Morse with a
-practice tree, and **War Pigeon**, an OFDM data modem that carries short
-encrypted text over any voice channel, speaker to microphone, with no
-infrastructure of any kind.
+**Radio.** Range estimation over real terrain, frequency planning, emergency and
+distress frequencies by country and by convention, Morse with a practice tree
+and reference boards for the abbreviations, Q code and Z code, and **War
+Pigeon**, an OFDM data modem that carries short encrypted text over any voice
+channel, speaker to microphone, with no infrastructure of any kind.
 
 **Reference.** Around a thousand entries across land, air, sea, space, chemical,
 biological, radiological and ballistic subjects, each stored in SI and shown in
 whatever units you chose.
 
 **Six themes**, an app lock with duress PINs, and thirty languages, all
-hand-translated and all working with no signal.
+hand-translated and all working with no signal. No machine translation is used
+anywhere in this app.
 
 ---
 
@@ -72,7 +81,7 @@ hand-translated and all working with no signal.
 
 **[Download the latest APK →](../../releases/latest)**
 
-Current build: **3.59.0**, a pre-release. Android only, sideloaded, see
+Current build: **5.2.0**, a pre-release. Android only, sideloaded, see
 **[Installing](docs/install.md)**. It is not signed for production, so Android
 will warn you; that warning is correct and you should read
 [the note above](#this-is-the-only-place-artemidos-is-published) before
@@ -81,8 +90,8 @@ installing anything called Artemidos.
 Verify what you downloaded before you install it:
 
 ```
-sha256sum artemidos-3.59.0.apk
-54a1d906a29ba19853488c75e915f3ca1d701d0b4676526e401254745ba6a4c3
+sha256sum artemidos-5.2.0.apk
+e3c5eb676350fc406208dba9229b8d826d66719e48acce2d636237dfc52c5685
 ```
 
 If that does not match, do not install it.
@@ -135,8 +144,11 @@ Devices, refunds and recovering a lost key:
 ## Status
 
 **Pre-release.** The app is complete and in daily use, but it has not been
-through a production signing and review pass, and the catalogue's labels are
-still being translated, see [Languages](docs/languages.md).
+through a production signing and review pass.
+
+The reference catalogue is now fully translated into all thirty languages.
+Around 370 strings inside individual tool pages are still English and are being
+worked through by hand, see [Languages](docs/languages.md).
 
 ---
 
@@ -156,9 +168,34 @@ checked, never as fact.
 
 ---
 
+## Credits
+
+**Wikipedia and Wikimedia Commons.** The rank ladders and the camouflage
+catalogue were built from Wikipedia's articles on comparative military ranks and
+on military camouflage patterns, and the photographs throughout Recon come from
+Wikimedia Commons. Wikipedia text is used under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) and those
+entries carry the same licence. Every photograph is public domain, CC0, CC BY or
+CC BY-SA, with its author and licence shown under the image inside the app.
+
+That is an obligation, not a courtesy: CC BY-SA requires the source be named and
+the licence carried forward, and the app names it in **Settings → About →
+Credits** as well as here.
+
+Other sources: the **European Central Bank** for exchange rates (via
+frankfurter.dev), **NOAA** for solar position, **OurAirports** and open
+geographic datasets for airports and cities, and the **NOAA/BGS world magnetic
+model** for declination.
+
+---
+
 ## Reporting an error
 
 Corrections, inaccuracies and suggestions:
 **atavisticconcept@gmail.com**
 
 Say which page and which figure. Sources welcome.
+
+---
+
+© 2026 Atavistic Concept. All rights reserved.
