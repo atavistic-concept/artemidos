@@ -32,7 +32,7 @@ that reads correctly at a glance is the whole trick.
 | **[What it does](docs/features.md)** | Every page and tool, section by section |
 | **[Buying and activation](docs/activation.md)** | Price, payment in TON or USDT, keys, devices |
 | **[Installing](docs/install.md)** | Sideloading, permissions, first run |
-| **[Languages](docs/languages.md)** | The 30 languages, and what is translated |
+| **[Languages](docs/languages.md)** | The thirty languages |
 | **[Privacy](docs/privacy.md)** | What touches the network, and what never does |
 
 ---
@@ -42,20 +42,28 @@ that reads correctly at a glance is the whole trick.
 **Field tools.** Scientific calculator with a running tape, a full unit
 converter, stopwatch, timers, alarms and an interval timer, an encrypted
 notebook, phonetic alphabets in Latin and Cyrillic, and an offline currency
-converter. A **health** page with a pulse counter, a CPR metronome that counts
-the 30:2 cycle for you, human reference figures for temperature, hypothermia,
-fever and dehydration, and a cycle calendar that predicts from your own logged
-dates. A **sensors** page that reports what this particular phone actually
-carries, and says plainly when something is not there.
+converter. A **time and calendar** page that converts any date into the Islamic,
+Persian, Hebrew, Hindu, Chinese and French Republican calendars, each in its own
+script. A **health** page with a pulse counter, a CPR metronome that counts the
+30:2 cycle for you, human reference figures for temperature, hypothermia, fever
+and dehydration, and a cycle calendar that predicts from your own logged dates.
+A **sensors** page that reports what this particular phone actually carries, and
+says plainly when something is not there.
 
 **Navigation.** A pannable world map with weapon, blast, nuclear and sound
 ranges drawn on real ground. A compass you can calibrate against a known
-bearing. Sea navigation: sailings, chart scale, course to steer, tacking,
-estimated position, distance off, and magnetic declination including what an
-old chart's own note works out to today. Mountain work: Naismith timing, slope
-distance, height by clinometer angle, and gradient with the avalanche band
-called out. Distance between any two places by road, helicopter and jet, with
-every airport within 75 km of a city tagged where it is military or private.
+bearing. **Fuel** planning for land, sea and air, where a sustained gradient, a
+running sea or a wind aloft is applied to the consumption figure rather than
+assumed away. Sea navigation: sailings, chart scale, course to steer, tacking,
+estimated position, distance off, and magnetic declination including what an old
+chart's own note works out to today. **Tides**, predicted offline for ports
+worldwide, with the curve drawn. **Scuba** and **free-diving**: gas and mixes,
+pressure and depth, no-stop planning on Bühlmann ZH-L16 with gradient factors,
+consumption, cylinder filling and lead weighting. Mountain work: Naismith
+timing, slope distance, height by clinometer angle, and gradient with the
+avalanche band called out. Distance between any two places by road, helicopter
+and jet, with every airport within 75 km of a city tagged where it is military
+or private.
 
 **Ranging.** Distance by camera, by mil scale, and by flash to bang, plus a
 sliding second cross that measures the separation between two objects in the
@@ -71,9 +79,8 @@ channel, speaker to microphone, with no infrastructure of any kind.
 biological, radiological and ballistic subjects, each stored in SI and shown in
 whatever units you chose.
 
-**Six themes**, an app lock with duress PINs, and thirty languages, all
-hand-translated and all working with no signal. No machine translation is used
-anywhere in this app.
+**Six themes**, an app lock with duress PINs, and **thirty languages**, every one
+hand-written and all working with no signal.
 
 ---
 
@@ -81,17 +88,17 @@ anywhere in this app.
 
 **[Download the latest APK →](../../releases/latest)**
 
-Current build: **5.2.0**, a pre-release. Android only, sideloaded, see
-**[Installing](docs/install.md)**. It is not signed for production, so Android
-will warn you; that warning is correct and you should read
+Current build: **5.3.1**. Android 8.0 or newer, installed by sideloading, see
+**[Installing](docs/install.md)**. Android warns before installing anything from
+outside the Play Store; that warning is correct and you should read
 [the note above](#this-is-the-only-place-artemidos-is-published) before
 installing anything called Artemidos.
 
 Verify what you downloaded before you install it:
 
 ```
-sha256sum artemidos-5.2.0.apk
-e3c5eb676350fc406208dba9229b8d826d66719e48acce2d636237dfc52c5685
+sha256sum artemidos-5.3.1.apk
+8db413fa2ba93a9ca851465837e77bbcd6b3c5af4cc87842a94d04d04bdcf72f
 ```
 
 If that does not match, do not install it.
@@ -141,14 +148,13 @@ Devices, refunds and recovering a lost key:
 
 ---
 
-## Status
+## Updates
 
-**Pre-release.** The app is complete and in daily use, but it has not been
-through a production signing and review pass.
+There are no update reminders and no nagging: the app never contacts anyone to
+check for a version. Come back here from time to time and see whether a newer
+release is out.
 
-The reference catalogue is now fully translated into all thirty languages.
-Around 370 strings inside individual tool pages are still English and are being
-worked through by hand, see [Languages](docs/languages.md).
+Every update is included in the price, for life.
 
 ---
 
@@ -183,9 +189,9 @@ the licence carried forward, and the app names it in **Settings → About →
 Credits** as well as here.
 
 Other sources: the **European Central Bank** for exchange rates (via
-frankfurter.dev), **NOAA** for solar position, **OurAirports** and open
-geographic datasets for airports and cities, and the **NOAA/BGS world magnetic
-model** for declination.
+frankfurter.dev), **NOAA** for solar position, **NOAA CO-OPS** for tidal
+harmonics, **OurAirports** and open geographic datasets for airports and cities,
+and the **NOAA/BGS world magnetic model** for declination.
 
 ---
 

@@ -36,7 +36,7 @@ SI and displaying them in whatever units you chose.
 
 | Section | What is in it |
 |---|---|
-| **Physics & nature** | Wave speeds, falling bodies, ballistic arcs, natural phenomena |
+| **Physics & nature** | Wave speeds, falling bodies, ballistic arcs, natural phenomena, and a **cloud field guide**: the ten types, what each looks like, and what it says about the next few hours |
 | **Civilian vehicles** | Road, rail, air and sea, with range and endurance |
 | **Military systems** | Tanks, armoured vehicles, artillery, aircraft, helicopters, naval vessels, drones, missiles, ICBMs, nuclear effects, air defence, plus **ranks and insignia**, **camouflage patterns** and **police forces** by country |
 | **People & animals** | Movement rates, endurance and daily range |
@@ -97,6 +97,14 @@ magnetometer is a chip inside a slab of metal and magnets, and it reads
 consistently wrong by an amount that depends on the phone, the case and what is
 in your pocket.
 
+**Fuel.** Fuel and range for land, sea and air, in three tabs. Every figure
+starts from the consumption *you* enter and bends it with the conditions the
+maker's number quietly assumed away.
+
+- *Land*, a sustained uphill gradient costs real litres, computed from the mass being lifted, the fuel's energy and drivetrain efficiency, and added to the flat-road figure
+- *Sea*, a stated weather allowance from significant wave height, wind and the heading they come from: worst into a head sea, nearly free following. The breakdown is shown, so the estimate is never hidden inside the answer
+- *Air*, the burn is by the hour but the ground covered is not, so the wind component drives groundspeed, trip fuel, reserve in minutes and the total required
+
 ### In the hills
 
 **Mountain.**
@@ -106,7 +114,25 @@ in your pocket.
 - **Height**, from a clinometer angle and a paced horizontal distance, with what one degree of error is worth at that range
 - **Gradient**, rise over run, as a percentage, an angle and a ratio, with the **avalanche band** called out: 30° to 45° is where slab avalanches overwhelmingly release
 
-### At sea
+### On and in the water
+
+**Tides.** Offline tide prediction for ports worldwide, with the curve drawn at
+the top of the page. Stations with published harmonic constants are computed
+from them; elsewhere the app works from the moon's transit with a standard-port
+high-water interval and range, and says plainly which of the two it used and
+where the figures were borrowed from.
+
+**Scuba.**
+
+- *Gas*, mixes, best mix for a depth, maximum operating depth, equivalent narcotic depth, oxygen partial pressure
+- *Pressure*, absolute and gauge pressure against depth, in fresh or salt water and at altitude
+- *Dive plan*, no-stop time and decompression on **Bühlmann ZH-L16 with gradient factors**, sixteen tissue compartments shown as they load, multi-level segments and gas switches, with conservatism presets
+- *Gas plan and consumption*, surface air consumption from a real measurement, the rule of thirds, and how long a cylinder lasts at a depth
+- *Weighting*, lead for suit, salinity and cylinder, including twinsets and sidemount
+- *Fill*, cylinder filling time from start and end pressure and the compressor's rate
+
+**Free-diving.** Lead weighting from body mass, suit thickness and salinity, set
+for neutral buoyancy where it matters rather than at the surface.
 
 **Sea navigation**, sailings (great circle and rhumb line), chart scale, true/magnetic/compass conversion, course to steer with tidal set and drift, tacking, estimated position, speed–time–distance.
 
