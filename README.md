@@ -101,7 +101,7 @@ The web version needs no sideloading and updates itself. The APK is still the
 better build on Android, because a browser cannot reach the barometer, and
 vibration never works on iPhone. Everything computational is identical.
 
-Current build: **5.3.2**. Android 8.0 or newer, installed by sideloading, see
+Current build: **5.3.3**. Android 8.0 or newer, installed by sideloading, see
 **[Installing the APK](docs/install.md)**. Android warns before installing
 anything from outside the Play Store; that warning is correct and you should
 read [the note above](#this-is-the-only-place-artemidos-is-published) before
@@ -110,8 +110,8 @@ installing anything called Artemidos.
 Verify what you downloaded before you install it:
 
 ```
-sha256sum artemidos-5.3.2.apk
-6988b5f326842467169787ca889dfec65ff5602060537d44c7c4d6639a5d4928
+sha256sum artemidos-5.3.3.apk
+d80543b5bbb7e174754a469d6a667bc4ca27942289c7af1231c062307c793d61
 ```
 
 If that does not match, do not install it.
