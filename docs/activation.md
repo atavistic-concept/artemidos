@@ -59,10 +59,51 @@ within a minute. You can close the app; the order is kept.
 
 The key is also **emailed** to the address you gave.
 
+## Activating a key you already have
+
+Buying activates the app for you automatically. This section is for every time
+after that: a second phone, or the same phone after a reinstall. **It is the
+same key every time and you never buy again.**
+
+> **Settings → Activation → Already have a key → Paste it here → Activate**
+
+The key is one long line that begins `ARTM1.` Copy it whole, from the `ARTM1`
+to the very last character. If your mail app has wrapped it over several lines
+that does not matter, but a missing character does.
+
+### It works with no signal
+
+The key carries its own signature and the app checks that signature **on the
+device**. Activation needs no network, no account and no server. If you are
+offline it simply registers the device the next time it has a connection, and
+nothing is held up in the meantime.
+
+### If it refuses
+
+The app says *"That key did not verify."* That means the key is **malformed**,
+not expired and not cancelled: these keys have no expiry date at all. Almost
+always a character is missing from one end. Paste it again, taking the whole
+line.
+
+If the key is already on six devices it still activates, and tells you so.
+Free a slot from a phone you no longer use, or write to support.
+
+### Copying it off a phone that already has it
+
+**Settings → Activation → Copy my key.** Useful when you still have the working
+phone in front of you and cannot find the email.
+
+### Removing it from a phone
+
+**Settings → Activation → Remove the key from this phone.** The key stays valid
+and you can paste it back whenever you like. This is the tidy way to free a slot
+before selling or wiping a handset.
+
 ## Keep the email
 
 Uninstalling clears the key from that phone. It does **not** cancel the key, but
-you will need to paste it back to reactivate, and the email is where it lives.
+you will need to [paste it back](#activating-a-key-you-already-have) to
+reactivate, and the email is where it lives.
 
 Lost it? **Settings → Activation → Email my key again.** For privacy the
 reply is identical whether or not the address is known, so it cannot be used to
