@@ -117,10 +117,17 @@ maker's number quietly assumed away.
 ### On and in the water
 
 **Tides.** Offline tide prediction for ports worldwide, with the curve drawn at
-the top of the page. Stations with published harmonic constants are computed
-from them; elsewhere the app works from the moon's transit with a standard-port
-high-water interval and range, and says plainly which of the two it used and
-where the figures were borrowed from.
+the top of the page against a scale in metres. The height is shown on the dot
+itself, with an arrow for making or taking off, and you can touch or drag
+anywhere along the curve to read the height at that moment.
+
+Stations with published harmonic constants are computed from them; elsewhere
+the app works from the moon's transit with a standard-port high-water interval
+and range, and says plainly which of the two it used and where the figures were
+borrowed from. Where it is working without local harmonic constants it also
+says so on the screen you are reading the numbers off, because that model draws
+the day's two high waters at the same height, and on a mixed or diurnal coast
+the real ones can differ by most of the range.
 
 **Scuba.**
 

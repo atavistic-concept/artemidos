@@ -42,6 +42,20 @@ commonest fault in multilingual text is invisible: a Latin `a` inside a Cyrillic
 word, a Cyrillic `а` inside an Occitan one. They look identical and they break
 search, sorting and text-to-speech.
 
+## How far the thirty go
+
+The interface, the reference catalogue and all 199 country names are written in
+every one of the thirty.
+
+A tail of specialist material is not there yet, and it is better to say so than
+to let you find out: the more obscure unit names, the currency names, the names
+of the languages themselves, and the short notes about which foreign currency is
+accepted where are currently written in Italian, Portuguese, French, Spanish,
+German and Russian, and appear in English in the other twenty-four. A further
+handful of unit names, mostly in pressure, energy and power, are still English
+in every language. None of it is guessed at or machine-filled in the meantime;
+where a translation has not been written by hand, the English stands.
+
 ## Names keep their names
 
 Designations are printed as they are issued: `3M14 Kalibr`, `2S19 Msta-S`,

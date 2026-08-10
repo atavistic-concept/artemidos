@@ -57,7 +57,8 @@ running sea or a wind aloft is applied to the consumption figure rather than
 assumed away. Sea navigation: sailings, chart scale, course to steer, tacking,
 estimated position, distance off, and magnetic declination including what an old
 chart's own note works out to today. **Tides**, predicted offline for ports
-worldwide, with the curve drawn. **Scuba** and **free-diving**: gas and mixes,
+worldwide, with the curve drawn against a scale in metres and the height read
+off it by touch at any moment of the day. **Scuba** and **free-diving**: gas and mixes,
 pressure and depth, no-stop planning on Bühlmann ZH-L16 with gradient factors,
 consumption, cylinder filling and lead weighting. Mountain work: Naismith
 timing, slope distance, height by clinometer angle, and gradient with the
@@ -88,7 +89,7 @@ hand-written and all working with no signal.
 
 **[Download the latest APK →](../../releases/latest)**
 
-Current build: **5.3.1**. Android 8.0 or newer, installed by sideloading, see
+Current build: **5.3.2**. Android 8.0 or newer, installed by sideloading, see
 **[Installing](docs/install.md)**. Android warns before installing anything from
 outside the Play Store; that warning is correct and you should read
 [the note above](#this-is-the-only-place-artemidos-is-published) before
@@ -97,8 +98,8 @@ installing anything called Artemidos.
 Verify what you downloaded before you install it:
 
 ```
-sha256sum artemidos-5.3.1.apk
-8db413fa2ba93a9ca851465837e77bbcd6b3c5af4cc87842a94d04d04bdcf72f
+sha256sum artemidos-5.3.2.apk
+6988b5f326842467169787ca889dfec65ff5602060537d44c7c4d6639a5d4928
 ```
 
 If that does not match, do not install it.
