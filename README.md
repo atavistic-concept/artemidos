@@ -91,7 +91,7 @@ hand-written and all working with no signal.
 |---|---|---|
 | **Android, APK** | **[Download →](../../releases/latest)** | The full build. Reaches every sensor |
 
-Current build: **5.3.3**. Android 8.0 or newer, installed by sideloading, see
+Current build: **5.3.4**. Android 8.0 or newer, installed by sideloading, see
 **[Installing the APK](docs/install.md)**. Android warns before installing
 anything from outside the Play Store; that warning is correct and you should
 read [the note above](#this-is-the-only-place-artemidos-is-published) before
@@ -100,8 +100,8 @@ installing anything called Artemidos.
 Verify what you downloaded before you install it:
 
 ```
-sha256sum artemidos-5.3.3.apk
-d80543b5bbb7e174754a469d6a667bc4ca27942289c7af1231c062307c793d61
+sha256sum artemidos-5.3.4.apk
+6214cac4cd3c7543f4c44f8c9e61421d2eee37cfe41b583c85363a3cde414ead
 ```
 
 If that does not match, do not install it.
