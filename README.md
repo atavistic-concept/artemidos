@@ -32,8 +32,6 @@ that reads correctly at a glance is the whole trick.
 | **[What it does](docs/features.md)** | Every page and tool, section by section |
 | **[Buying and activation](docs/activation.md)** | Price, payment in TON or USDT, keys, devices |
 | **[Installing the APK](docs/install.md)** | Android, sideloading, permissions, first run |
-| **[Installing on iPhone](docs/install-ios.md)** | iPhone and iPad, straight from the web |
-| **[Installing in a browser](docs/install-web.md)** | Android and desktop, no sideloading |
 | **[Languages](docs/languages.md)** | The thirty languages |
 | **[Privacy](docs/privacy.md)** | What touches the network, and what never does |
 
@@ -89,17 +87,9 @@ hand-written and all working with no signal.
 
 ## Get it
 
-Three ways in. The same app, the same key, the same offline behaviour.
-
 | | | |
 |---|---|---|
 | **Android, APK** | **[Download →](../../releases/latest)** | The full build. Reaches every sensor |
-| **iPhone and iPad** | **[Open in Safari →](https://atavistic-concept.github.io/artemidos-pwa/)** | Share, then Add to Home Screen. [How](docs/install-ios.md) |
-| **Browser** | **[Open →](https://atavistic-concept.github.io/artemidos-pwa/)** | Android or desktop, installs to the home screen. [How](docs/install-web.md) |
-
-The web version needs no sideloading and updates itself. The APK is still the
-better build on Android, because a browser cannot reach the barometer, and
-vibration never works on iPhone. Everything computational is identical.
 
 Current build: **5.3.3**. Android 8.0 or newer, installed by sideloading, see
 **[Installing the APK](docs/install.md)**. Android warns before installing
