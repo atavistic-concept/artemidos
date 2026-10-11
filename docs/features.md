@@ -88,7 +88,17 @@ ranges onto any location as true geographic circles and read which real places
 fall inside a ring. Tiles you have panned over are stored and work with no
 signal afterwards.
 
+**Offline map packs.** Load a map pack (a `.pmtiles` file) and every map in the
+app works with no signal anywhere inside it, drawn in the app's own colours.
+
 ### Instruments
+
+**Position.** Your live GPS fix in MGRS, UTM and latitude and longitude in three
+spellings, each with a copy button, with accuracy, altitude, speed, course and
+magnetic declination. A converter reads any of those formats as typed and shows
+the rest. *Go to* gives bearing, distance and time to a saved point with an
+arrow turned by the compass, and *GPS track* records your trail, draws it, gives
+the way back to the start and exports GPX.
 
 **Compass.** Full dial, magnetic and true heading. **Calibratable**: point the
 phone at a bearing you know, enter it, and the offset is stored and applied
@@ -129,6 +139,16 @@ says so on the screen you are reading the numbers off, because that model draws
 the day's two high waters at the same height, and on a mixed or diurnal coast
 the real ones can differ by most of the range.
 
+**Sextant.** A position from altitudes of the sun by the intercept method, with
+every correction and running fixes for course and speed. With no sextant on
+board the phone measures the altitude itself: aim the camera so the sun sits in
+the circle and press Mark. It reads against gravity, like a bubble sextant, so
+no horizon is needed; calibrate it on the sea horizon or on a table, and expect
+10 to 30 miles on the fix against 1 or 2 with a sextant. Index error by the sun
+or the horizon, how to take a sight step by step with the sun's altitude now and
+the time of local noon, and latitude from a noon sight, which needs no exact
+time.
+
 **Scuba.**
 
 - *Gas*, mixes, best mix for a depth, maximum operating depth, equivalent narcotic depth, oxygen partial pressure
@@ -141,11 +161,21 @@ the real ones can differ by most of the range.
 **Free-diving.** Lead weighting from body mass, suit thickness and salinity, set
 for neutral buoyancy where it matters rather than at the surface.
 
-**Sea navigation**, sailings (great circle and rhumb line), chart scale, true/magnetic/compass conversion, course to steer with tidal set and drift, tacking, estimated position, speed–time–distance.
+**Sea navigation**, sailings (great circle and rhumb line), chart scale, true/magnetic/compass conversion, course to steer with tidal set and drift, tacking, estimated position, speed, time and distance.
 
 **Magnetic declination**, today's figure from an offline world magnetic model, *and* what an old chart's own compass rose works out to now. A 1994 chart with 6′ annual change is three degrees out by now, and three degrees over ten miles is half a mile off track. It shows both and states the disagreement.
 
 **Distance off**, vertical sextant angle, dipping lights, two bearings.
+
+### In the city
+
+**Metro.** Every metro, light metro, monorail and light rail line in 71
+countries and 300 cities, stored in the app from OpenStreetMap. Each city shows
+its lines on a map, its stations, its coordinates, and which stretches run
+underground, elevated or at street level, with the share of each; stations are
+marked underground or above ground. Tap a line to list its stations and pick it
+out on the map. Each city links to its schematic map on UrbanRail.Net, which
+opens in the browser.
 
 ### How far
 
@@ -212,6 +242,15 @@ and reports each as present with its reading, or plainly **not available**.
 Where a sensor exists but Android does not expose it to an app, the page says
 that instead, because "not available" and "present but not offered to this app"
 are different facts and only one of them is about the hardware.
+
+**Encrypted backup.** The notebook, War Pigeon keys and log, saved points,
+tracks and settings in one block of text, encrypted with a passphrase you
+choose (AES-256). Restore it on this phone or a new one.
+
+**QR transfer.** Send a note as a QR code sealed with a passphrase you agree face
+to face; the other phone films it and asks for the passphrase. Long text travels
+as a short loop of codes, and a backup can be shown and scanned the same way. No
+network, no cable, no pairing.
 
 ---
 

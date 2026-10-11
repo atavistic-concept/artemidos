@@ -48,7 +48,10 @@ script. A **health** page with a pulse counter, a CPR metronome that counts the
 30:2 cycle for you, human reference figures for temperature, hypothermia, fever
 and dehydration, and a cycle calendar that predicts from your own logged dates.
 A **sensors** page that reports what this particular phone actually carries, and
-says plainly when something is not there.
+says plainly when something is not there. An **encrypted backup** seals the
+notebook, keys, saved positions and settings under one passphrase, and **QR
+transfer** carries a sealed note or a backup from one phone to another with no
+network at all.
 
 **Navigation.** A pannable world map with weapon, blast, nuclear and sound
 ranges drawn on real ground. A compass you can calibrate against a known
@@ -64,7 +67,12 @@ consumption, cylinder filling and lead weighting. Mountain work: Naismith
 timing, slope distance, height by clinometer angle, and gradient with the
 avalanche band called out. Distance between any two places by road, helicopter
 and jet, with every airport within 75 km of a city tagged where it is military
-or private.
+or private. **Position** in MGRS, UTM and latitude and longitude, with a
+converter, a go-to arrow and a recorded GPS track. A **sextant** page: sights of
+the sun with a real sextant or with the phone itself, index error, and latitude
+from a noon sight. **Metro**: every metro, light metro, monorail and light rail
+line in 71 countries and 300 cities, with what runs underground, elevated or at
+street level. **Offline map packs** for maps with no signal at all.
 
 **Ranging.** Distance by camera, by mil scale, and by flash to bang, plus a
 sliding second cross that measures the separation between two objects in the
@@ -91,7 +99,7 @@ hand-written and all working with no signal.
 |---|---|---|
 | **Android, APK** | **[Download →](../../releases/latest)** | The full build. Reaches every sensor |
 
-Current build: **5.3.10**. Android 8.0 or newer, installed by sideloading, see
+Current build: **5.4.0**. Android 8.0 or newer, installed by sideloading, see
 **[Installing the APK](docs/install.md)**. Android warns before installing
 anything from outside the Play Store; that warning is correct and you should
 read [the note above](#this-is-the-only-place-artemidos-is-published) before
@@ -100,8 +108,8 @@ installing anything called Artemidos.
 Verify what you downloaded before you install it:
 
 ```
-sha256sum artemidos-5.3.10.apk
-021fb32a5a5b82cce2bb667488c6f8c224f09e628f3445ef65bbb3e5b0811ef4
+sha256sum artemidos-5.4.0.apk
+d7d99537ec158d8be0c774805890371e3c7416f0bb6e26598c9b43ed9925e9c4
 ```
 
 If that does not match, do not install it.
@@ -194,7 +202,9 @@ Credits** as well as here.
 Other sources: the **European Central Bank** for exchange rates (via
 frankfurter.dev), **NOAA** for solar position, **NOAA CO-OPS** for tidal
 harmonics, **OurAirports** and open geographic datasets for airports and cities,
-and the **NOAA/BGS world magnetic model** for declination.
+the **NOAA/BGS world magnetic model** for declination, and **OpenStreetMap** for
+the metro lines and stations and the map tiles (© OpenStreetMap contributors,
+[ODbL](https://opendatacommons.org/licenses/odbl/)).
 
 ---
 
